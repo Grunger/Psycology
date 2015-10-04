@@ -1,0 +1,95 @@
+body {
+   width: 800px;
+   margin:  auto;
+   text-align: center;
+   background-image: url(w.jpg);
+}
+
+header {
+background-color: white;
+border-radius:30px;
+}
+
+header h1 {
+   font-size: 50px;
+   text-align: center;
+
+   margin: 0px;
+   color: #7ba3b8;
+}
+
+nav ul {
+   text-align: center;
+   list-style: none;
+   padding: 0px;
+   display: block;
+   clear: right;
+   background-color: #dcdcdc;
+   padding-left: 4px;
+   padding-top: 4px;
+   height: 30px;
+   border-radius: 20px;
+}
+nav ul li {
+   display: inline;
+   padding: 0px 20px 5px 10px;
+   height: 24px;
+   border-right: 1px solid #ccc;
+}
+
+nav ul li a {
+   color: #006;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+nav ul li a:hover {
+   color: #fff;
+}
+
+article {
+background-color: white;
+border-radius: 50px;
+
+}
+article > header h1 {
+   font-size: 40px;
+   float: left;
+   margin-left: 14px;
+}
+
+article > header h1 a {
+   color: #000090;
+   text-decoration: none;
+}
+
+article > section header h1 {
+   font-size: 20px;
+   margin-left: 25px;
+}
+
+article > h1 {
+margin-left: 50px;
+margin-right: 50px;
+}
+
+article > h2 {
+margin-left: 50px;
+margin-right: 50px;
+}
+
+article p {
+   clear: both;
+   margin-top: 0px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+#forma {
+   background-color: orange;
+   border: solid black 5px;
+   border-radius: 10px;
+   padding-top: 20px;
+   font-family: Trebuchet MS1, Helvetica, sans-serif;
+}
