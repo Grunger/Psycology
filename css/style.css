@@ -1,12 +1,12 @@
 body {
-   width: 800px;
+   width: 1000px;
    margin:  auto;
    text-align: center;
-   background-image: url(w.jpg);
+   background-image: url(../img/w.jpg);
 }
 
 header {
-background-color: white;
+background-image: url(../img/header_bg.jpg);
 border-radius:30px;
 }
 
@@ -18,6 +18,10 @@ header h1 {
    color: #7ba3b8;
 }
 
+article p {
+   text-align: justify;
+   padding-bottom: 20px;
+}
 nav ul {
    text-align: center;
    list-style: none;
@@ -87,9 +91,18 @@ article p {
 }
 
 #forma {
-   background-color: orange;
+   background-color: silver;
    border: solid black 5px;
    border-radius: 10px;
    padding-top: 20px;
    font-family: Trebuchet MS1, Helvetica, sans-serif;
+}
+
+.im {
+   float: left;
+   margin: 50px;
+   width: 100%;
+   height: 500px;
+   background-image: url(Шляпы.bmp);
+   background-repeat: repeat-x;
 }
