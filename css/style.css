@@ -106,3 +106,14 @@ article p {
    background-image: url(Шляпы.bmp);
    background-repeat: repeat-x;
 }
+
+.tooltip {
+   width: 300px;
+   background-color: white;
+   border-radius: 50px;
+   font-size: 20px;
+}
+
+.hiden {
+   display: none;
+}
