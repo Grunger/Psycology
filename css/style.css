@@ -91,7 +91,7 @@ article p {
 }
 
 #forma {
-   background-color: silver;
+   background-color: #dabdab;
    border: solid black 5px;
    border-radius: 10px;
    padding-top: 20px;
@@ -117,3 +117,12 @@ article p {
 .hiden {
    display: none;
 }
+.form {
+   text-align: left;
+   padding-left: 40%;
+}
+.description {
+   text-align: justify;
+   padding: 50px;
+   background-color: white;
+   border-radius: 50px;
